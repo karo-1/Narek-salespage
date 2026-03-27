@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Premium Sales Landing Page - Your trusted partner in excellence"/>
+  <title data-i18n="title">Sales — Your Brand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <!-- Logo placeholder -->
+      <a href="#" class="logo">
+        <div class="logo-icon">◈</div>
+        <span class="logo-text" data-i18n="brand">YOUR BRAND</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services"   data-i18n="nav_services">Services</a>
+        <a href="#features"   data-i18n="nav_features">Why Us</a>
+        <a href="#products"   data-i18n="nav_products">Products</a>
+        <a href="#testimonials" data-i18n="nav_testimonials">Testimonials</a>
+        <a href="#contact"    data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <!-- Language switcher -->
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="hy">ՀԱՅ</button>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge" data-i18n="hero_badge">✦ Trusted by 500+ clients</div>
+      <h1 class="hero-title" data-i18n="hero_title">Elevate Your<br/><span class="gradient-text">Business Growth</span></h1>
+      <p class="hero-sub" data-i18n="hero_sub">We deliver premium solutions that transform your vision into reality. Quality, speed, and results — guaranteed.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero_cta1">Get Started</a>
+        <a href="#services" class="btn btn-ghost" data-i18n="hero_cta2">Learn More</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label" data-i18n="stat1">Happy Clients</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">12+</span><span class="stat-label" data-i18n="stat2">Years Experience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">99%</span><span class="stat-label" data-i18n="stat3">Satisfaction Rate</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="services_tag">What We Offer</div>
+        <h2 data-i18n="services_title">Our Services</h2>
+        <p data-i18n="services_sub">A full spectrum of professional solutions tailored to your exact needs.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🎯</div>
+          <h3 data-i18n="s1_title">Strategy & Consulting</h3>
+          <p data-i18n="s1_desc">Expert guidance to define your roadmap and outperform competition.</p>
+          <a href="#contact" class="card-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">⚡</div>
+          <h3 data-i18n="s2_title">Fast Delivery</h3>
+          <p data-i18n="s2_desc">We work with precision and speed to bring results ahead of schedule.</p>
+          <a href="#contact" class="card-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🔒</div>
+          <h3 data-i18n="s3_title">Reliable Support</h3>
+          <p data-i18n="s3_desc">24/7 dedicated support and aftercare for all delivered projects.</p>
+          <a href="#contact" class="card-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">📈</div>
+          <h3 data-i18n="s4_title">Growth Analytics</h3>
+          <p data-i18n="s4_desc">Data-driven insights and reporting to continuously improve ROI.</p>
+          <a href="#contact" class="card-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🌐</div>
+          <h3 data-i18n="s5_title">Global Reach</h3>
+          <p data-i18n="s5_desc">Scale beyond borders with our international network and expertise.</p>
+          <a href="#contact" class="card-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">💎</div>
+          <h3 data-i18n="s6_title">Premium Quality</h3>
+          <p data-i18n="s6_desc">Every solution is built to the highest industry standards, no exceptions.</p>
+          <a href="#contact" class="card-link" data-i18n="learn_more">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES / WHY US -->
+  <section class="section section-dark" id="features">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="features_tag">Our Advantages</div>
+        <h2 data-i18n="features_title">Why Choose Us</h2>
+        <p data-i18n="features_sub">We stand apart through commitment, expertise, and measurable results.</p>
+      </div>
+      <div class="features-layout">
+        <div class="features-visual reveal">
+          <div class="feat-circle">
+            <div class="feat-inner">
+              <span class="feat-num">12+</span>
+              <span class="feat-label" data-i18n="feat_years">Years</span>
+            </div>
+          </div>
+          <div class="feat-badges">
+            <div class="feat-badge"><span>✓</span> <span data-i18n="fb1">ISO Certified</span></div>
+            <div class="feat-badge"><span>✓</span> <span data-i18n="fb2">Award Winning</span></div>
+            <div class="feat-badge"><span>✓</span> <span data-i18n="fb3">24/7 Support</span></div>
+          </div>
+        </div>
+        <div class="features-list reveal">
+          <div class="feature-item">
+            <div class="feature-dot"></div>
+            <div>
+              <h4 data-i18n="f1_title">Proven Track Record</h4>
+              <p data-i18n="f1_desc">Over a decade of successful projects across multiple industries.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-dot"></div>
+            <div>
+              <h4 data-i18n="f2_title">Tailored Solutions</h4>
+              <p data-i18n="f2_desc">No one-size-fits-all. Every solution is built specifically for you.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-dot"></div>
+            <div>
+              <h4 data-i18n="f3_title">Transparent Pricing</h4>
+              <p data-i18n="f3_desc">Clear, upfront pricing with no hidden fees or surprises.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-dot"></div>
+            <div>
+              <h4 data-i18n="f4_title">Expert Team</h4>
+              <p data-i18n="f4_desc">A dedicated team of specialists passionate about your success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS / PRICING -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="products_tag">Packages</div>
+        <h2 data-i18n="products_title">Choose Your Plan</h2>
+        <p data-i18n="products_sub">Flexible options designed to fit every stage of your business.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <div class="pricing-label" data-i18n="p1_label">Starter</div>
+          <div class="pricing-price"><span class="price-currency">$</span>299<span class="price-period" data-i18n="per_month">/mo</span></div>
+          <ul class="pricing-features">
+            <li data-i18n="p1_f1">✓ Basic consultation</li>
+            <li data-i18n="p1_f2">✓ Monthly reporting</li>
+            <li data-i18n="p1_f3">✓ Email support</li>
+            <li class="disabled" data-i18n="p1_f4">✗ Priority access</li>
+            <li class="disabled" data-i18n="p1_f5">✗ Dedicated manager</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" data-i18n="get_started">Get Started</a>
+        </div>
+        <div class="pricing-card featured reveal">
+          <div class="pricing-popular" data-i18n="popular">Most Popular</div>
+          <div class="pricing-label" data-i18n="p2_label">Professional</div>
+          <div class="pricing-price"><span class="price-currency">$</span>699<span class="price-period" data-i18n="per_month">/mo</span></div>
+          <ul class="pricing-features">
+            <li data-i18n="p2_f1">✓ Full consultation</li>
+            <li data-i18n="p2_f2">✓ Weekly reporting</li>
+            <li data-i18n="p2_f3">✓ Priority support</li>
+            <li data-i18n="p2_f4">✓ Priority access</li>
+            <li class="disabled" data-i18n="p2_f5">✗ Dedicated manager</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" data-i18n="get_started">Get Started</a>
+        </div>
+        <div class="pricing-card reveal">
+          <div class="pricing-label" data-i18n="p3_label">Enterprise</div>
+          <div class="pricing-price"><span class="price-currency"></span><span data-i18n="custom_price">Custom</span></div>
+          <ul class="pricing-features">
+            <li data-i18n="p3_f1">✓ Full consultation</li>
+            <li data-i18n="p3_f2">✓ Real-time reporting</li>
+            <li data-i18n="p3_f3">✓ 24/7 support</li>
+            <li data-i18n="p3_f4">✓ Priority access</li>
+            <li data-i18n="p3_f5">✓ Dedicated manager</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" data-i18n="contact_us">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-dark" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="testi_tag">Reviews</div>
+        <h2 data-i18n="testi_title">What Clients Say</h2>
+        <p data-i18n="testi_sub">Real words from real partners who have experienced the difference.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p data-i18n="t1_text">"Working with this team changed how we do business. The results were beyond what we expected — professional, fast, and incredibly effective."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div>
+              <strong data-i18n="t1_name">Armen Hakobyan</strong>
+              <span data-i18n="t1_role">CEO, TechArm LLC</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p data-i18n="t2_text">"Exceptional quality and a team that truly listens. They delivered our project on time and exceeded every benchmark we set."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">N</div>
+            <div>
+              <strong data-i18n="t2_name">Natalia Smirnova</strong>
+              <span data-i18n="t2_role">Director, Nova Group</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p data-i18n="t3_text">"I've worked with many agencies, but none match this level of transparency and commitment. Highly recommended for any serious business."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">G</div>
+            <div>
+              <strong data-i18n="t3_name">Gevorg Petrosyan</strong>
+              <span data-i18n="t3_role">Founder, GreenStart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" data-i18n="contact_tag">Get In Touch</div>
+        <h2 data-i18n="contact_title">Contact Us</h2>
+        <p data-i18n="contact_sub">Ready to grow? Fill out the form and we'll respond within 24 hours.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong data-i18n="c_address_label">Address</strong>
+              <span data-i18n="c_address">Yerevan, Armenia</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <strong data-i18n="c_phone_label">Phone</strong>
+              <span>+374 XX XXX XXX</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong data-i18n="c_email_label">Email</strong>
+              <span>info@yourbrand.am</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Instagram">in</a>
+            <a href="#" class="social-btn" aria-label="Telegram">tg</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="f_name">Full Name</label>
+              <input type="text" id="fname" placeholder="John Doe" required/>
+            </div>
+            <div class="form-group">
+              <label data-i18n="f_phone">Phone</label>
+              <input type="tel" id="fphone" placeholder="+374 XX XXX XXX"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-i18n="f_email">Email</label>
+            <input type="email" id="femail" placeholder="you@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label data-i18n="f_service">Service</label>
+            <select id="fservice">
+              <option value="" data-i18n="f_select">Select a service…</option>
+              <option value="strategy" data-i18n="s1_title">Strategy & Consulting</option>
+              <option value="delivery" data-i18n="s2_title">Fast Delivery</option>
+              <option value="support" data-i18n="s3_title">Reliable Support</option>
+              <option value="analytics" data-i18n="s4_title">Growth Analytics</option>
+              <option value="global" data-i18n="s5_title">Global Reach</option>
+              <option value="quality" data-i18n="s6_title">Premium Quality</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label data-i18n="f_message">Message</label>
+            <textarea id="fmessage" rows="4" placeholder="Tell us about your project…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" data-i18n="f_submit">Send Message</button>
+          <div class="form-success" id="formSuccess">
+            <span>✓</span> <span data-i18n="f_success">Thank you! We'll be in touch soon.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <div class="logo-icon">◈</div>
+        <span class="logo-text" data-i18n="brand">YOUR BRAND</span>
+      </div>
+      <p class="footer-copy" data-i18n="footer_copy">© 2026 Your Brand. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#services"  data-i18n="nav_services">Services</a>
+        <a href="#features"  data-i18n="nav_features">Why Us</a>
+        <a href="#contact"   data-i18n="nav_contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
