@@ -103,8 +103,8 @@ const i18n = {
   },
 
   ru: {
-    title: "Продажи — Ваш Бренд",
-    brand: "ВАШ БРЕНД",
+    title: "Продажи",
+    brand: "SALES",
     nav_services: "Услуги",
     nav_features: "Почему мы",
     nav_products: "Продукты",
@@ -203,8 +203,8 @@ const i18n = {
   },
 
   hy: {
-    title: "Վաճառք — Ձեր Բրենդ",
-    brand: "ՁԵՐ ԲՐԵՆԴ",
+    title: "Վաճառք",
+    brand: "SALES",
     nav_services: "Ծառայություններ",
     nav_features: "Ինչու մենք",
     nav_products: "Ապրանքներ",
